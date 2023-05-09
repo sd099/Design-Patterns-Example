@@ -1,11 +1,11 @@
 # Required Design Patterns
 
-1. Factory Design Pattern
-2. Abstract factory Design Pattern
+1. Factory Design Pattern : Done
+2. Abstract factory Design Pattern : Done
 3. Singleton Design Pattern
-4. Observer Design Pattern
-5. Builder Design Pattern
-6. Decorator Design Pattern
+4. Observer Design Pattern : Done
+5. Builder Design Pattern :Done
+6. Decorator Design Pattern : Done
 7. Adaptor Design Pattern
-8. Strategy Design Pattern
+8. Strategy Design Pattern : Done
 9. Facade Design Pattern

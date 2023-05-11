@@ -2,7 +2,7 @@
 
 1. Factory Design Pattern : Done
 2. Abstract factory Design Pattern : Done
-3. Singleton Design Pattern
+3. Singleton Design Pattern : Done
 4. Observer Design Pattern : Done
 5. Builder Design Pattern :Done
 6. Decorator Design Pattern : Done

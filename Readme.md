@@ -6,6 +6,6 @@
 4. Observer Design Pattern : Done
 5. Builder Design Pattern :Done
 6. Decorator Design Pattern : Done
-7. Adaptor Design Pattern
+7. Adaptor Design Pattern : Done
 8. Strategy Design Pattern : Done
 9. Facade Design Pattern

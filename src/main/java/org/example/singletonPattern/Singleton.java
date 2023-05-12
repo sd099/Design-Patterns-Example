@@ -15,8 +15,25 @@ import java.util.Objects;
 //}
 
 //create object if only a method called for this class
+//public class Singleton {
+//    static Singleton singleton = null;
+//
+//    private Singleton() {
+//
+//    }
+//
+//    public static Singleton getInstance() {
+//        if (Objects.isNull(singleton)) {
+//            singleton = new Singleton();
+//        }
+//        return singleton;
+//    }
+//}
+
+
+// Singleton with thread safety
 public class Singleton {
-    static Singleton singleton = null;
+    static volatile Singleton singleton = null;
 
     private Singleton() {
 
@@ -24,7 +41,11 @@ public class Singleton {
 
     public static Singleton getInstance() {
         if (Objects.isNull(singleton)) {
-            singleton = new Singleton();
+            synchronized (Singleton.class) {
+                if (Objects.isNull(singleton)) {
+                    singleton = new Singleton();
+                }
+            }
         }
         return singleton;
     }

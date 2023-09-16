@@ -2,7 +2,7 @@ package org.example.strategyDesignPattern;
 
 import org.example.strategyDesignPattern.strategies.IDriveStrategy;
 
-public class Car {
+public abstract class Car {
     IDriveStrategy driveStrategy;
 
     Car(IDriveStrategy driveStrategy) {

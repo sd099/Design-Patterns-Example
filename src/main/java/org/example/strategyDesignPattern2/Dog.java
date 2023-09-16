@@ -3,7 +3,7 @@ package org.example.strategyDesignPattern2;
 import org.example.strategyDesignPattern2.strategies.IDogEat;
 import org.example.strategyDesignPattern2.strategies.IDogLook;
 
-public class Dog {
+public abstract class Dog {
     String Bark;
     IDogEat iDogEat;
     IDogLook iDogLook;

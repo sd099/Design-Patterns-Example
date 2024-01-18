@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class Resource {
 
-    Queue<Integer> data;
+    private Queue<Integer> data;
     private Integer bufferSize;
 
     public Resource(Integer bufferSize) {
@@ -14,7 +14,7 @@ public class Resource {
     }
 
     public synchronized void addItem(Integer item) {
-        if (data.size() == bufferSize) {
+        while (data.size() == bufferSize) {
             try {
                 wait();
             } catch (Exception e) {

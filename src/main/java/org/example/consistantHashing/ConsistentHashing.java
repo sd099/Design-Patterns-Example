@@ -74,7 +74,6 @@ public class ConsistentHashing {
      */
     private int generateHash(String key) {
         // Using the built-in hashCode method for simplicity
-        int data = key.hashCode();
         return key.hashCode();
     }
 
